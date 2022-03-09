@@ -17,32 +17,8 @@ if (!in_array($domain, $whitelist)){exit();}
 
 $data=array();
 $data["referer"]=$domain;
-//
-//
-//
 $username=strtolower($_GET["user"]);
-//
-//
-//
 
-//
-//
-
-//
-//
-//
-//
-
-//
-//
-
-//
-//
-//
-//
-
-//
-//
 $req="https://$illiadDomain/ILLiadWebPlatform/Transaction/UserRequests/$username";
 
 $ch = curl_init();
